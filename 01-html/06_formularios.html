@@ -1,0 +1,63 @@
+<!-- CURSO DE HTML -->
+
+<!-- Formulários -->
+
+<!-- A tag usada é a "form", mas ela não oferece nenhum elemento visual no navegador, para isso temos as tags:
+  -- "input" que sempre precisa tem um tipo: texto, numero, email, telefone, etc
+-->
+
+<form>
+  <input type="text" />
+</form>
+
+<br /><br />
+
+<!-- a tag input tem alguns atributos que podem ou não ser utilizados: 
+  ex: "value" se a gente quer que o campo input tenha um valor pré-definido dentro assim que acessa a pagina do formulário -->
+
+<form>
+  <input type="text" value="Andre" />
+</form>
+
+<br /><br />
+
+<!-- exemplo de formulário de login: -->
+
+<p>Formulário de Login</p>
+<form>
+  <input type="email" placeholder="Email" />
+  <input type="password" placeholder="Senha" />
+  <button type="submit">Login</button>
+</form>
+
+<br /><br />
+
+<!-- exemplo de formulário de contato simples: -->
+<!-- para evitar que o formulário seja enviado sem ser preenchido, usa-se o atributo "required" ao input -->
+
+<p>Formulário de Contato Simples</p>
+<form>
+  <input type="text" placeholder="Nome" required /><br />
+  <input type="text" placeholder="Gênero" /><br />
+  <input type="text" placeholder="Assunto" required /><br />
+  <textarea placeholder="Mensagem" rows="5"></textarea><br />
+  <button type="text">Salvar</button>
+</form>
+
+<br /><br />
+
+<p>Formulário de Contato Complexo</p>
+<form>
+  <input type="text" placeholder="Nome" required /><br />
+  <!-- usando atributo "name" no input tipo radio com mesmo valor, voce só consegue selecionar uma opção por vez -->
+  <input type="radio" name="genero" />Masculino<br />
+  <input type="radio" name="genero" />Feminino<br />
+  <select>
+    <option>Sugestão</option>
+    <option>Reclamação</option>
+    <option>Suporte</option></select
+  ><br />
+  <textarea placeholder="Mensagem" rows="5"></textarea><br />
+  <input type="file" /><br />
+  <button type="text">Salvar</button>
+</form>

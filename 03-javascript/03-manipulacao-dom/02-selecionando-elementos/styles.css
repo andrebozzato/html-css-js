@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141f36;
+  font-family: sans-serif;
+  color: white;
+  padding: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+#app {
+  width: 250px;
+}
+
+input {
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+  outline: 0;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #2d6cea;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+}

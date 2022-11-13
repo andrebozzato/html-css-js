@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        background: #e2e8f0;
+        height: 100vh;
+        padding: 1rem;
+      }
+      .row {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      section h2 {
+        text-align: center;
+      }
+      .col {
+        background: white;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+        border-radius: 0.5rem;
+        height: 500px;
+        width: 500px;
+        padding: 1rem;
+      }
+      .item1 {
+        background: #fefcbf;
+        height: 200px;
+        width: 200px;
+      }
+      .item2 {
+        background: #c6f6d5;
+        height: 200px;
+        width: 200px;
+      }
+      .nowrap {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      .wrap {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .wrap-rev {
+        display: flex;
+        flex-wrap: wrap-reverse;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="./index.html">voltar p/ home</a>
+    <div class="row">
+      <!-- flex-wrap: nowrap -->
+      <section>
+        <h2>flex-wrap: nowrap</h2>
+        <div class="col nowrap">
+          <div class="item1">
+            <h3>item 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item2">
+            <h3>item 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item1">
+            <h3>item 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item2">
+            <h3>item 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- flex-wrap: wrap -->
+      <section>
+        <h2>flex-wrap: wrap</h2>
+        <div class="col wrap">
+          <div class="item1">
+            <h3>item 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item2">
+            <h3>item 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item1">
+            <h3>item 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item2">
+            <h3>item 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- flex-wrap: wrap-reverse -->
+      <section>
+        <h2>flex-wrap: wrap-reverse</h2>
+        <div class="col wrap-rev">
+          <div class="item1">
+            <h3>item 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item2">
+            <h3>item 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item1">
+            <h3>item 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="item2">
+            <h3>item 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

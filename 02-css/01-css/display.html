@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-size: 40px;
+        color: #fff;
+        background: coral;
+      }
+      ul {
+        padding: 0;
+      }
+      div {
+        background: seagreen;
+      }
+      /* display inline por padrão */
+      /* por padrão, não aceita margim e/ou padding para cima ou para baixo */
+      span {
+        background: dodgerblue;
+      }
+      li {
+        background: purple;
+      }
+      div,
+      span,
+      li {
+        width: 50%;
+        width: 200px;
+        height: 80px;
+        padding-top: 50px;
+        padding-left: 50px;
+        text-align: center;
+        /* deixa cada elemento em 1 linha */
+        display: block;
+        /* deixa os elementos em colunas */
+        display: inline;
+        /* deixa os elementos em linhas, porém aceitando paddint e margin top e bottom */
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Texto 1</div>
+    <span>Texto 2</span>
+    <span>Texto 3</span>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>

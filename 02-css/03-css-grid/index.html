@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CSS Grid Layout</title>
+  </head>
+  <body>
+    <!-- justify-content: alinhamento de conteudo na horizontal -->
+    <section>
+      <h2>justify-content: alinhamento de conteudo na horizontal</h2>
+      <div class="row">
+        <!-- justify-content: start; -->
+        <div class="col">
+          <span>justify-content: start;</span>
+          <div class="grid grid1">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-content: center; -->
+        <div class="col">
+          <span>justify-content: center;</span>
+          <div class="grid grid2">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-content: end; -->
+        <div class="col">
+          <span>justify-content: end;</span>
+          <div class="grid grid3">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-content: stretch; -->
+        <div class="col">
+          <span>justify-content: stretch; (padrão)</span>
+          <div class="grid grid4">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-content: space-between; -->
+        <div class="col">
+          <span>justify-content: space-between;</span>
+          <div class="grid grid5">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-content: space-around; -->
+        <div class="col">
+          <span>justify-content: space-around;</span>
+          <div class="grid grid6">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-content: space-evenly; -->
+        <div class="col">
+          <span>justify-content: space-evenly;</span>
+          <div class="grid grid7">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!--- -->
+      </div>
+    </section>
+
+    <!-- align-content: alinhamento de conteudo na vertical -->
+    <section>
+      <h2>align-content: alinhamento de conteudo na vertical</h2>
+      <div class="row">
+        <!-- align-content: start; -->
+        <div class="col">
+          <span>align-content: start;</span>
+          <div class="grid grid11">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-content: center; -->
+        <div class="col">
+          <span>align-content: center;</span>
+          <div class="grid grid12">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-content: end; -->
+        <div class="col">
+          <span>align-content: end;</span>
+          <div class="grid grid13">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-content: stretch; -->
+        <div class="col">
+          <span>align-content: stretch; (padrão)</span>
+          <div class="grid grid14">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-content: space-between; -->
+        <div class="col">
+          <span>align-content: space-between;</span>
+          <div class="grid grid15">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-content: space-around; -->
+        <div class="col">
+          <span>align-content: space-around;</span>
+          <div class="grid grid16">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-content: space-evenly; -->
+        <div class="col">
+          <span>align-content: space-evenly;</span>
+          <div class="grid grid17">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!--- -->
+      </div>
+    </section>
+
+    <!-- justify-items: alinhamento de itens na horizontal -->
+    <section>
+      <h2>justify-items: alinhamento de itens na horizontal</h2>
+      <div class="row">
+        <!-- justify-items: start; -->
+        <div class="col">
+          <span>justify-items: start;</span>
+          <div class="grid grid21">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-items: center; -->
+        <div class="col">
+          <span>justify-items: center;</span>
+          <div class="grid grid22">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-items: end; -->
+        <div class="col">
+          <span>justify-items: end;</span>
+          <div class="grid grid23">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-items: stretch; -->
+        <div class="col">
+          <span>justify-items: stretch; (padrão)</span>
+          <div class="grid grid24">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!--- -->
+      </div>
+    </section>
+
+    <!-- align-items: alinhamento de itens na vertical -->
+    <section>
+      <h2>align-items: alinhamento de itens na vertical</h2>
+      <div class="row">
+        <!-- align-items: start; -->
+        <div class="col">
+          <span>align-items: start;</span>
+          <div class="grid grid31">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-items: center; -->
+        <div class="col">
+          <span>align-items: center;</span>
+          <div class="grid grid32">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-items: end; -->
+        <div class="col">
+          <span>align-items: end;</span>
+          <div class="grid grid33">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-items: stretch; -->
+        <div class="col">
+          <span>align-items: stretch; (padrão)</span>
+          <div class="grid grid34">
+            <div class="item">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!--- -->
+      </div>
+    </section>
+
+    <!-- justify-self: alinhamento próprio na horizontal -->
+    <section>
+      <h2>justify-self: alinhamento de itens na vertical</h2>
+      <div class="row">
+        <!-- justify-self: start; -->
+        <div class="col">
+          <span>justify-self: start;</span>
+          <div class="grid grid41">
+            <div class="item grid41-item1">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-self: center; -->
+        <div class="col">
+          <span>justify-self: center;</span>
+          <div class="grid grid42">
+            <div class="item grid42-item1">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-self: end; -->
+        <div class="col">
+          <span>justify-self: end;</span>
+          <div class="grid grid43">
+            <div class="item grid43-item1">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- justify-self: stretch; -->
+        <div class="col">
+          <span>justify-self: stretch; (padrão)</span>
+          <div class="grid grid44">
+            <div class="item grid44-item1">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!--- -->
+      </div>
+    </section>
+
+    <!-- align-self: alinhamento próprio na vertical -->
+    <section>
+      <h2>align-self: alinhamento de itens na vertical</h2>
+      <div class="row">
+        <!-- align-self: start; -->
+        <div class="col">
+          <span>align-self: start;</span>
+          <div class="grid grid51">
+            <div class="item grid51-item1">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-self: center; -->
+        <div class="col">
+          <span>align-self: center;</span>
+          <div class="grid grid52">
+            <div class="item grid52-item1">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-self: end; -->
+        <div class="col">
+          <span>align-self: end;</span>
+          <div class="grid grid53">
+            <div class="item grid53-item1">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!-- align-self: stretch; -->
+        <div class="col">
+          <span>align-self: stretch; (padrão)</span>
+          <div class="grid grid54">
+            <div class="item grid54-item1">
+              <h1>1</h1>
+            </div>
+            <div class="item">
+              <h1>2</h1>
+            </div>
+            <div class="item">
+              <h1>3</h1>
+            </div>
+            <div class="item">
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <!--- -->
+      </div>
+    </section>
+  </body>
+</html>

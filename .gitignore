@@ -1,0 +1,5 @@
+node_modules
+02-css/05-tailwindcss/node_modules
+05-react/with-nextjs/node_modules
+05-react/with-nextjs/.next
+06-typescript/node_modules

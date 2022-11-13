@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        background: #e2e8f0;
+        height: 100vh;
+        padding: 1rem;
+      }
+      .row {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      section h2 {
+        text-align: center;
+      }
+      .col {
+        background: white;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+        border-radius: 0.5rem;
+        height: 500px;
+        width: 500px;
+        padding: 1rem;
+      }
+      .item1 {
+        background: #fefcbf;
+        height: 80px;
+        width: 80px;
+      }
+      .item2 {
+        background: #c6f6d5;
+        height: 80px;
+        width: 80px;
+      }
+
+      .flex-start {
+        display: flex;
+        align-items: flex-start;
+      }
+      .flex-end {
+        display: flex;
+        align-items: flex-end;
+      }
+      .center {
+        display: flex;
+        align-items: center;
+      }
+      .space-between {
+        display: flex;
+        align-items: space-between;
+      }
+      .space-around {
+        display: flex;
+        align-items: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="./index.html">voltar p/ home</a>
+    <div class="row">
+      <!-- align-items: flex-start -->
+      <section>
+        <h2>align-items: flex-start</h2>
+        <div class="col flex-start">
+          <div class="item1">
+            <h3>item 1</h3>
+          </div>
+          <div class="item2">
+            <h3>item 2</h3>
+          </div>
+          <div class="item1">
+            <h3>item 3</h3>
+          </div>
+          <div class="item2">
+            <h3>item 4</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- align-items: flex-end -->
+      <section>
+        <h2>align-items: flex-end</h2>
+        <div class="col flex-end">
+          <div class="item1">
+            <h3>item 1</h3>
+          </div>
+          <div class="item2">
+            <h3>item 2</h3>
+          </div>
+          <div class="item1">
+            <h3>item 3</h3>
+          </div>
+          <div class="item2">
+            <h3>item 4</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- align-items: center -->
+      <section>
+        <h2>align-items: center</h2>
+        <div class="col center">
+          <div class="item1">
+            <h3>item 1</h3>
+          </div>
+          <div class="item2">
+            <h3>item 2</h3>
+          </div>
+          <div class="item1">
+            <h3>item 3</h3>
+          </div>
+          <div class="item2">
+            <h3>item 4</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- align-items: space-between -->
+      <section>
+        <h2>align-items: space-between</h2>
+        <div class="col space-between">
+          <div class="item1">
+            <h3>item 1</h3>
+          </div>
+          <div class="item2">
+            <h3>item 2</h3>
+          </div>
+          <div class="item1">
+            <h3>item 3</h3>
+          </div>
+          <div class="item2">
+            <h3>item 4</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- align-items: space-around -->
+      <section>
+        <h2>align-items: space-around</h2>
+        <div class="col space-around">
+          <div class="item1">
+            <h3>item 1</h3>
+          </div>
+          <div class="item2">
+            <h3>item 2</h3>
+          </div>
+          <div class="item1">
+            <h3>item 3</h3>
+          </div>
+          <div class="item2">
+            <h3>item 4</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

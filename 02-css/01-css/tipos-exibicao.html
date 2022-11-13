@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* inline - exibe como um elemento embutido, qualquer propriedade de altura e largura não tem efeito */
+      .ex01 {
+        display: inline;
+        background: greenyellow;
+        width: 100px; /* não funciona */
+        height: 100px; /* não funciona */
+      }
+      /* block - exibe como um elemento de bloco, começa em uma nova linha e ocupa toda a largura */
+      .ex02 {
+        display: block;
+        margin: 3px;
+        background: blueviolet;
+        width: 70px;
+        height: 70px;
+      }
+      /* inline-block - exibe um elemento como um container de bloco em nivel de linha, e pode aplicar valores de altura e largura */
+      .ex03 {
+        display: inline-block;
+        background: red;
+        margin: 3px;
+        width: 70px;
+        height: 70px;
+      }
+      /* none - o elemento é completamente removido */
+      .ex04 {
+        display: none;
+        background: red;
+        margin: 3px;
+        width: 70px;
+        height: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="ex01">DISPLAY</h1>
+    <h1 class="ex01">INLINE</h1>
+
+    <br /><br />
+
+    <span class="ex02">DISPLAY</span>
+    <span class="ex02">BLOCK</span>
+
+    <br /><br />
+
+    <span class="ex03">DISPLAY</span>
+    <span class="ex03">INLINE-BLOCK</span>
+
+    <br /><br />
+
+    <span class="ex04">DISPLAY</span>
+    <span class="ex04">NONE</span>
+  </body>
+</html>
